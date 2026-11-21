@@ -53,7 +53,7 @@ const FOTOS = [
 const VIDEO_SRC = "https://storage.googleapis.com/store-screenapp-v2-production/temp/d044189c-1408-460c-9dfe-2a41ad3fe5f8/Resumen%20XV%20_%20Brenda.MP4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=GOOG1EINEQV5X2QGY62PSZMBMUR7IGGVLKNDB6ABP5GL6O6FKO76DWA2IE3SB%2F20261121%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261121T002653Z&X-Amz-Expires=86400&X-Amz-Signature=77319195ccb5c97322151fb0c0f7fc48ea04b33fda5d20111b78fc5b466e4461&X-Amz-SignedHeaders=host&x-id=GetObject";
 
 // Pegá aquí el enlace compartido de la carpeta de Google Drive.
-const DRIVE_FOLDER_URL = "";
+const DRIVE_FOLDER_URL = "https://drive.google.com/drive/folders/1DeLZBAci9cVYfiMTlmF3ZKF9JUIMyRq8?usp=sharing";
 
 const gallery = document.querySelector("#gallery");
 const lightbox = document.querySelector("#lightbox");
