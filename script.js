@@ -2,47 +2,47 @@
 // Para fotos propias, copiá los archivos junto a index.html y escribí sus nombres aquí.
 const FOTOS = [
   {
-    src: "img/_MG_3400.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_3400.JPG?raw=true",
     titulo: "La protagonista",
     alt: "Brenda con su vestido celeste"
   },
   {
-    src: "img/_MG_3689_.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_3689_.JPG?raw=true",
     titulo: "Una noche especial",
     alt: "Celebración al aire libre"
   },
   {
-    src: "img/_MG_3312.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_3312.JPG?raw=true",
     titulo: "Un gran recuerdo",
     alt: "Momento de celebración"
   },
   {
-    src: "img/_MG_3501.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_3501.JPG?raw=true",
     titulo: "Detalles que brillan",
     alt: "Decoración de una fiesta"
   },
   {
-    src: "img/_MG_4174.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_4174.JPG?raw=true",
     titulo: "A pura alegría",
     alt: "Globos y decoración festiva"
   },
   {
-    src: "img/_MG_4224.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_4224.JPG?raw=true",
     titulo: "La pista encendida",
     alt: "Luces de una fiesta"
   },
   {
-    src: "img/_MG_4435.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_4435.JPG?raw=true",
     titulo: "Un día inolvidable",
     alt: "Celebración especial"
   },
   {
-    src: "img/_MG_4443.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_4443.JPG?raw=true",
     titulo: "Brindis y sonrisas",
     alt: "Reunión festiva"
   },
   {
-    src: "img/_MG_3963_.jpg",
+    src: "https://github.com/montenegrojesu/misXVBrenda/blob/main/img/_MG_3963_.jpg?raw=true",
     titulo: "Todos juntos",
     alt: "Público celebrando"
   },
@@ -50,7 +50,7 @@ const FOTOS = [
 
 // Copiá el video junto a index.html y escribí su nombre, por ejemplo: "resumen.mp4".
 // Dejalo vacío para mostrar el espacio de video sin contenido.
-const VIDEO_SRC = "";
+const VIDEO_SRC = "https://storage.googleapis.com/store-screenapp-v2-production/temp/d044189c-1408-460c-9dfe-2a41ad3fe5f8/Resumen%20XV%20_%20Brenda.MP4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=GOOG1EINEQV5X2QGY62PSZMBMUR7IGGVLKNDB6ABP5GL6O6FKO76DWA2IE3SB%2F20261121%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261121T002653Z&X-Amz-Expires=86400&X-Amz-Signature=77319195ccb5c97322151fb0c0f7fc48ea04b33fda5d20111b78fc5b466e4461&X-Amz-SignedHeaders=host&x-id=GetObject";
 
 // Pegá aquí el enlace compartido de la carpeta de Google Drive.
 const DRIVE_FOLDER_URL = "";
