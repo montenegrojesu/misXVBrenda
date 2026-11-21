@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e3f4ed">
+  <title>Los XV de Brenda | Un día para recordar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">B</span>
+      <span>Mis quince <i>·</i> Brenda</span>
+    </a>
+
+    <nav aria-label="Navegación principal">
+      <a href="#historia">La historia</a>
+      <a href="#video">Video</a>
+      <a href="#galeria">Galería</a>
+    </nav>
+
+    <a class="top-cta" href="#drive">Fotos completas <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Una noche para guardar siempre</p>
+        <h1>Mis XV años<br><em>Brenda</em></h1>
+        <p class="hero-intro">
+          Un capítulo nuevo, una noche soñada y recuerdos que brillarán para siempre.
+        </p>
+        <a class="button" href="#video">Ver los recuerdos <span>↓</span></a>
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <span>Una celebración llena de magia</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="img/_MG_3124.jpg" alt="Brenda con su vestido celeste y su corona de quinceañera">
+          <span class="photo-tag">Brenda</span>
+        </div>
+        <span class="sparkle sparkle-one">✳</span>
+        <span class="sparkle sparkle-two">✦</span>
+        <div class="photo-caption">
+          <span>01 / 15</span>
+          <span>Un recuerdo especial</span>
+        </div>
+      </div>
+
+      <div class="hero-side">BRILLÁ · SOÑÁ · CELEBRÁ</div>
+    </section>
+
+    <section class="story" id="historia">
+      <div class="story-kicker">✦ &nbsp; UN DÍA INOLVIDABLE</div>
+      <div class="story-body">
+        <h2>Quince años,<br><em>mil emociones.</em></h2>
+        <p>
+          Hoy comienza una aventura nueva. Que cada abrazo, cada sonrisa y cada
+          deseo de esta noche te acompañen en todo lo que viene. Este álbum guarda
+          un pedacito de un día que es todo tuyo.
+        </p>
+        <div class="signature">Con todo nuestro cariño <span>♡</span></div>
+      </div>
+      <div class="story-seal">XV<br><small>BR</small></div>
+    </section>
+
+    <section class="video-section" id="video">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> REVIVÍ LA CELEBRACIÓN</p>
+          <h2>Una noche en <em>un minuto</em></h2>
+        </div>
+        <p class="section-desc">
+          El resumen de una noche llena de abrazos, música y alegría.
+        </p>
+      </div>
+
+      <div class="video-upload" id="video-upload">
+        <div class="video-placeholder" id="video-placeholder">
+          <span class="play-mark">▶</span>
+          <strong>El video resumen</strong>
+          <span>Agregá el archivo y configurá su ruta en script.js</span>
+        </div>
+        <video id="party-video" controls playsinline hidden></video>
+      </div>
+
+      <p class="gallery-hint">
+        Para cambiar el video, actualizá VIDEO_SRC en script.js y guardá el archivo en la carpeta indicada.
+      </p>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> MOMENTOS PARA VOLVER</p>
+          <h2>La galería de <em>Brenda</em></h2>
+        </div>
+        <p class="section-desc">Fotos de la fiesta para atesorar cada instante.</p>
+      </div>
+
+      <div class="gallery" id="gallery" aria-label="Galería de fotos de la fiesta"></div>
+
+      <p class="gallery-hint">
+        Las imágenes de muestra se pueden reemplazar editando la lista FOTOS en script.js.
+      </p>
+    </section>
+
+    <section class="drive-section" id="drive">
+      <span class="drive-spark">✦</span>
+      <p class="eyebrow"><span></span> TODAS LAS FOTOS, EN UN SOLO LUGAR</p>
+      <h2>¿Querés verlas <em>todas?</em></h2>
+      <p>Encontrá y descargá las fotos completas de la fiesta en nuestra carpeta compartida.</p>
+      <a
+        class="button drive-button"
+        id="drive-link"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-disabled="true"
+      >
+        Abrir carpeta de Drive <span>↗</span>
+      </a>
+      <small>El enlace de la carpeta se agregará aquí.</small>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">B</span>
+      <span>Mis quince <i>·</i> Brenda</span>
+    </a>
+    <span>Un recuerdo para toda la vida <b>♡</b></span>
+    <a href="#inicio" class="back-top">Volver arriba ↑</a>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Foto ampliada">
+    <button class="close-lightbox" aria-label="Cerrar">×</button>
+    <img src="" alt="Foto del álbum">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
